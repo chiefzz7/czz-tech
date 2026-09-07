@@ -1,32 +1,45 @@
-# React + TypeScript + Vite
+# czz tech | Czz Soluções em TI 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Bem-vindo ao repositório oficial da landing page da **czz tech**. 
+Este projeto é a porta de entrada para os nossos serviços, focados no desenvolvimento de sistemas internos, ERPs, PDVs, plataformas SaaS, landing pages de alta conversão e automações sob medida.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este projeto foi construído com as melhores e mais modernas tecnologias do ecossistema front-end:
 
-## React Compiler
+- **[React](https://reactjs.org/)**: Biblioteca JavaScript para criação de interfaces de usuário dinâmicas.
+- **[Vite](https://vitejs.dev/)**: Ferramenta de build super rápida para projetos web modernos.
+- **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática e segurança ao código.
+- **CSS Vanilla (CSS Variables)**: Estilização limpa, responsiva e performática, sem dependência de frameworks externos pesados. Design system customizado e focado no tema Light Professional.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+## 📂 Estrutura do Projeto
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+A estrutura de pastas principal foi organizada da seguinte forma:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```text
+├── public/               # Assets estáticos (ícones, logos, imagens base)
+├── src/
+│   ├── components/       # Componentes React (Hero, Services, Systems, Process, CTA, Footer, etc)
+│   ├── assets/           # Imagens e vetores utilizados no código
+│   ├── App.tsx           # Componente raiz da aplicação
+│   ├── main.tsx          # Ponto de entrada do Vite/React
+│   ├── index.css         # Estilos globais e Design System
+│   └── hooks.ts          # Hooks customizados (useReveal, useCounter, useNavScroll)
+├── package.json          # Configurações de dependências e scripts do Node
+├── vite.config.ts        # Configurações do Vite
+└── tsconfig.json         # Configurações do TypeScript
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🤝 Serviços Oferecidos
+
+Na **czz tech**, somos especialistas em:
+- **Sistemas Internos**: ERPs e PDVs sob medida.
+- **Landing Pages e Sites Institucionais**: Focados em performance, SEO e conversão.
+- **SaaS**: Desenvolvimento completo de produtos digitais escaláveis.
+- **Automações e Integrações**: Conexões de APIs, bots e fluxos inteligentes.
+- **Desenvolvimento Mobile**: Apps nativos para iOS e Android com React Native.
+
+---
+
+Feito com ❤️ e muito código pela **czz tech**!
